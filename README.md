@@ -1,3 +1,5 @@
+[![CI Pipeline](https://github.com/romiraxp/js_oop/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/romiraxp/js_oop/actions/workflows/main.yml)
+
 # Домашнее задание к лекции «Классы, наследование»
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
