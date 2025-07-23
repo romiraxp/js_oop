@@ -17,7 +17,8 @@ export function checkNameLen(name) {
   if (name.length < 2 || name.length > 10) {
     throw new Error("The name's lenght should be more or equal 2 and less or equal than 10");
   } else {
-    return name.length;
+    //return name.length;
+    return name;
   }
 }
 
@@ -27,7 +28,8 @@ export function checkNameLen(name) {
 export function checkAvailableType(type) {
   listOfTypes = ['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie'];
   if (!listOfTypes.includes(type)) {
-    throw new Error("The type should be one of the list of types - Bowman, Swordsman, Magician, Daemon, Undead, Zombie");
+    //throw new Error("The type should be one of the list of types - Bowman, Swordsman, Magician, Daemon, Undead, Zombie");
+    throw new Error(`The type "${type}" should be one of the list of types - ${listOfTypes.join(", ")}`);
   } else {
     return type;
   }
